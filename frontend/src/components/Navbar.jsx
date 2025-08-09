@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { SearchContext } from "../contexts/SearchContext";
 import { ThemeContext } from "../contexts/ThemeContext";
-import { AuthContext } from "../contexts/authContext";
+import { AuthContext } from "../contexts/AuthContext";
 import ToggleButton from "./ToggleButton";
 
 const Navbar = () => {
