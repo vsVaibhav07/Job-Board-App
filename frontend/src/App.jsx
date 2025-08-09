@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SearchProvider } from "./contexts/SearchContext";
-import { AuthProvider } from "./contexts/authContext"; // ⬅️ Import AuthProvider
-import { ThemeProvider } from "./contexts/ThemeContext"; // Optional if using ThemeContext globally
+import { AuthProvider } from "./contexts/AuthContext"; 
+import { ThemeProvider } from "./contexts/ThemeContext";  
 
 import Home from "./pages/Home";
 import Login from "./pages/Login";
